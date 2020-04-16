@@ -8,7 +8,7 @@
              BackgroundColor="Cornsilk"
              x:Class="xam18.Views.Page1">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
             <Label Text="Welcome to Page 1!" FontSize="Large"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
