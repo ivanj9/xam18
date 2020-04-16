@@ -26,6 +26,9 @@
                 <Setter Property="Shell.TabBarTitleColor" Value="White"/>
             </Style>
             <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
+            <Style TargetType="ContentPage" ApplyToDerivedTypes="True">
+                <Setter Property="Visual" Value="Material"/>
+            </Style>
         </ResourceDictionary>
     </Shell.Resources>
 
