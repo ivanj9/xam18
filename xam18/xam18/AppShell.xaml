@@ -30,8 +30,8 @@
     </Shell.Resources>
 
     <Shell.FlyoutHeader>
-        <Grid HeightRequest="80" BackgroundColor="BlueViolet">
-            <Label Text="Nav Demo" TextColor="White" FontSize="48" HorizontalOptions="Center" VerticalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+        <Grid HeightRequest="80" BackgroundColor="Red">
+            <Label Text="Patriot XV" TextColor="White" FontSize="48" HorizontalOptions="Center" VerticalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
         </Grid>
     </Shell.FlyoutHeader>
     

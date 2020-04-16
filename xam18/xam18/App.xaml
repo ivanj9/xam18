@@ -6,6 +6,14 @@
              mc:Ignorable="d"
              x:Class="xam18.App">
     <Application.Resources>
-        
+        <Style TargetType="Button"
+               ApplyToDerivedTypes="True"
+               CanCascade="True">
+            <Setter Property="FontSize" Value="Medium" />
+            <Setter Property="BackgroundColor" Value="#1976D2" />
+            <Setter Property="TextColor" Value="White" />
+            <Setter Property="CornerRadius" Value="5" />
+            
+        </Style>
     </Application.Resources>
 </Application>

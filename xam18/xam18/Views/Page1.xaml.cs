@@ -16,5 +16,12 @@ namespace xam18.Views
         {
             InitializeComponent();
         }
+
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Page2());
+            //await Navigation.PushModalAsync(new NavigationPage(new NewItemPage()));
+
+        }
     }
 }
