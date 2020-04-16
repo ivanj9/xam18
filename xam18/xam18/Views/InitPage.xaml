@@ -4,14 +4,16 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             Title="Page 2"
-             BackgroundColor="WhiteSmoke"
-             x:Class="xam18.Views.Page2">
+             Title="Patriot XV"
+             x:Class="xam18.Views.InitPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Page 2!" FontSize="Large"
+            <Label Text="Welcome to Init page!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <BoxView BackgroundColor="Red" HeightRequest="200"/>
+            <Button Text="Create new account"/>
+            <Button Text="Login"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

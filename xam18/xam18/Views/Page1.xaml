@@ -5,13 +5,11 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              Title="Page 1"
-             BackgroundColor="Cornsilk"
+             BackgroundColor="WhiteSmoke"
              x:Class="xam18.Views.Page1">
     <ContentPage.Content>
         <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-            <Label Text="Welcome to Page 1!" FontSize="Large"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Welcome to Page 1!" FontSize="Large"/>
             <Button Text="Zápis" Clicked="Button_Clicked"/>
         </StackLayout>
     </ContentPage.Content>

@@ -4,13 +4,16 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             Title="Page 2"
-             BackgroundColor="WhiteSmoke"
-             x:Class="xam18.Views.Page2">
+             Title="Home - MySuperCar"
+             x:Class="xam18.Views.Home">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Page 2!" FontSize="Large"
+            <Label Text="Welcome back! we are taking care of your car."
                 VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Everything is Online and looks in good shape!"
+                VerticalOptions="CenterAndExpand" 
+                FontAttributes="Bold"
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>

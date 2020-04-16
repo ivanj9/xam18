@@ -13,7 +13,7 @@
     -->
     <Shell.Resources>
         <ResourceDictionary>
-            <Color x:Key="NavigationPrimary">#2196F3</Color>
+            <Color x:Key="NavigationPrimary">Red</Color>
             <Style x:Key="BaseStyle" TargetType="Element">
                 <Setter Property="Shell.BackgroundColor" Value="{StaticResource NavigationPrimary}" />
                 <Setter Property="Shell.ForegroundColor" Value="White" />
@@ -27,7 +27,7 @@
             </Style>
             <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
             <Style TargetType="ContentPage" ApplyToDerivedTypes="True">
-                <Setter Property="Visual" Value="Material"/>
+                <Setter Property="Visual" Value="Default"/>
             </Style>
         </ResourceDictionary>
     </Shell.Resources>
@@ -49,7 +49,30 @@
         </Tab>
     </TabBar>
 -->
-    <FlyoutItem Title="Single Page 1">
+    <FlyoutItem Title="Home">
+        <ShellContent ContentTemplate="{DataTemplate local:Home}" />
+    </FlyoutItem>
+    <FlyoutItem Title="Map">
+        <ShellContent ContentTemplate="{DataTemplate local:Map}" />
+    </FlyoutItem>
+    <FlyoutItem Title="Garage">
+        <ShellContent ContentTemplate="{DataTemplate local:Garage}" />
+    </FlyoutItem>
+    <FlyoutItem Title="Status">
+        <ShellContent ContentTemplate="{DataTemplate local:Status}" />
+    </FlyoutItem>
+    <FlyoutItem Title="Timeline">
+        <ShellContent ContentTemplate="{DataTemplate local:Timeline}" />
+    </FlyoutItem>
+    <FlyoutItem Title="Settings">
+        <ShellContent ContentTemplate="{DataTemplate local:Settings}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="About">
+        <ShellContent ContentTemplate="{DataTemplate local:AboutPage}" />
+    </FlyoutItem>
+
+    <!--<FlyoutItem Title="Single Page 1">
         <ShellContent ContentTemplate="{DataTemplate local:Page1}" />
     </FlyoutItem>
 
@@ -76,8 +99,8 @@
             <ShellContent Title="1st page" ContentTemplate="{DataTemplate local:Page1}"/>
             <ShellContent Title="2nd page" ContentTemplate="{DataTemplate local:Page2}"/>
         </Tab>
-    </FlyoutItem>
-    <MenuItem Text="Alert!" Clicked="MenuItem_Clicked"/>
+    </FlyoutItem>-->
+    <MenuItem Text="About!" Clicked="MenuItem_Clicked"/>
     
     <!-- Optional Templates 
     // These may be provided inline as below or as separate classes.

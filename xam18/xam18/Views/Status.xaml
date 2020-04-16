@@ -4,12 +4,11 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             Title="Page 2"
-             BackgroundColor="WhiteSmoke"
-             x:Class="xam18.Views.Page2">
+             Title="Status"
+             x:Class="xam18.Views.Status">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Page 2!" FontSize="Large"
+            <Label Text="Welcome to Status page!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
